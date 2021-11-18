@@ -1,2 +1,2 @@
 # block_genfu
-Generic file uploader
+Generic File Uploader
