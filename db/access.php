@@ -53,5 +53,14 @@ $capabilities = array(
             'frontpage' => CAP_PREVENT,
             'user' => CAP_PREVENT
         ),
+
+    'block/genfu:uploader' => array(
+         'riskbitmask' => RISK_CONFIG,
+         'captype' => 'write',
+         'contextlevel' => CONTEXT_SYSTEM,
+         'archetypes' => array(
+             'frontpage' => CAP_PREVENT,
+             'user' => CAP_PREVENT
+         ),
     )
 );
